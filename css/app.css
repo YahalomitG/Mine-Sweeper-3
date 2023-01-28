@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+.lives {
+    text-align: center;
+}
+.timer {
+    text-align: center;
+
+}
+
+button {
+
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+.btn{
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 50px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+
+}
+
+.levels {
+    text-align: center;
+}
+
+.restart-btn{
+    text-align: center;
+   
+}
+
+table {
+    margin: auto;
+    margin-top: 20px
+}
+
+.board td {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    transition: 0.15s;
+}
+
+.cell {
+
+    border: 2px outset rgb(164, 125, 125);
+    gap: 0%;
+    background-color: rgb(104, 113, 104);
+    background-size: 100%;
+    font-weight: 900;
+}
+
+.opened {
+    background-color: lightgray;
+}
+
+.footer {
+
+    text-align: center;
+    color: darkkhaki;
+    padding-top: 20px;
+}
+
